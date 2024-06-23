@@ -1,0 +1,15 @@
+/Users/macbook/Documents/MyProjectRoute/MyProjectRoute/bin/Debug/net8.0/MyProjectRoute
+/Users/macbook/Documents/MyProjectRoute/MyProjectRoute/bin/Debug/net8.0/MyProjectRoute.deps.json
+/Users/macbook/Documents/MyProjectRoute/MyProjectRoute/bin/Debug/net8.0/MyProjectRoute.runtimeconfig.json
+/Users/macbook/Documents/MyProjectRoute/MyProjectRoute/bin/Debug/net8.0/MyProjectRoute.dll
+/Users/macbook/Documents/MyProjectRoute/MyProjectRoute/bin/Debug/net8.0/MyProjectRoute.pdb
+/Users/macbook/Documents/MyProjectRoute/MyProjectRoute/obj/Debug/net8.0/MyProjectRoute.GeneratedMSBuildEditorConfig.editorconfig
+/Users/macbook/Documents/MyProjectRoute/MyProjectRoute/obj/Debug/net8.0/MyProjectRoute.AssemblyInfoInputs.cache
+/Users/macbook/Documents/MyProjectRoute/MyProjectRoute/obj/Debug/net8.0/MyProjectRoute.AssemblyInfo.cs
+/Users/macbook/Documents/MyProjectRoute/MyProjectRoute/obj/Debug/net8.0/MyProjectRoute.csproj.CoreCompileInputs.cache
+/Users/macbook/Documents/MyProjectRoute/MyProjectRoute/obj/Debug/net8.0/MyProjectRoute.dll
+/Users/macbook/Documents/MyProjectRoute/MyProjectRoute/obj/Debug/net8.0/refint/MyProjectRoute.dll
+/Users/macbook/Documents/MyProjectRoute/MyProjectRoute/obj/Debug/net8.0/MyProjectRoute.pdb
+/Users/macbook/Documents/MyProjectRoute/MyProjectRoute/obj/Debug/net8.0/MyProjectRoute.genruntimeconfig.cache
+/Users/macbook/Documents/MyProjectRoute/MyProjectRoute/obj/Debug/net8.0/ref/MyProjectRoute.dll
+/Users/macbook/Documents/MyProjectRoute/MyProjectRoute/obj/Debug/net8.0/MyProjectRoute.sourcelink.json
