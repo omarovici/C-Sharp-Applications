@@ -193,20 +193,5 @@ public class Demo
         // }
         #endregion
 
-        #region Best Practices When Dealing with Loops
-        // List<int> numbersList = new List<int> { 1, 2, 3, 4, 5 };
-        // foreach (int num in numbersList)
-        // {
-        //     Console.WriteLine(num); // Output: 1 2 3 4 5
-        // }
-        // #endregion
-        //
-        // #region Block Scope
-        // {
-        //     int x = 10;
-        //     Console.WriteLine(x); // Output: 10
-        // }
-        // // Console.WriteLine(x); // Error: x does not exist in this scope
-        #endregion
     }
 }
