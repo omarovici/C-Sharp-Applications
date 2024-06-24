@@ -140,6 +140,18 @@ class Program
         //
         // #endregion
         
+        // 11- Write a program to input the month number and print the number of days
+        //    in that month.
+
+        // #region Problem-11
+        //
+        // Console.Write("Enter The Number: ");
+        // int x = int.Parse(Console.ReadLine());
+        // int day = DateTime.DaysInMonth(DateTime.Now.Year, x);
+        // Console.WriteLine(day);
+        //
+        // #endregion
+
         // 12- Write a program to create a Simple Calculator.
         
         // #region Problem-12
@@ -225,6 +237,60 @@ class Program
         // Console.WriteLine(binary);
         //
         // #endregion
+        
+        // 17- Create a program that asks the user to input three points (x1, y1),
+        // (x2, y2), and (x3, y3), and determines whether these points lie on a
+        // single straight line.
+
+        // #region Problem-17
+        //
+        // Point a = new Point();
+        // Point b = new Point();
+        // Point c = new Point();
+        // Console.Write("Enter X1 & Y1 : ");
+        // a.X = int.Parse(Console.ReadLine());
+        // a.Y = int.Parse(Console.ReadLine());
+        //
+        // Console.Write("Enter X2 & Y2 : ");
+        // b.X = int.Parse(Console.ReadLine());
+        // b.Y = int.Parse(Console.ReadLine());
+        //
+        // Console.Write("Enter X3 & Y3 : ");
+        // c.X = int.Parse(Console.ReadLine());
+        // c.Y = int.Parse(Console.ReadLine());
+        //
+        // if((c.Y-b.Y)*(b.X-a.X)==(b.Y-a.Y)*(c.X-b.X)) Console.WriteLine("All 3 points lie on the same line");
+        // else Console.WriteLine("All 3 points do not lie on the same line");
+        //
+        // #endregion
+        
+        // 18- Within a company, the efficiency of workers is evaluated based on the
+        // duration required to complete a specific task. A worker's efficiency level
+        //    is determined as follows:
+        // - If the worker completes the job within 2 to 3 hours, they are considered
+        //    highly efficient.
+        // - If the worker takes 3 to 4 hours, they are instructed to increase their
+        // speed.
+        // - If the worker takes 4 to 5 hours, they are provided with training to
+        // enhance their speed.
+        // - If the worker takes more than 5 hours, they are required to leave the
+        // company.
+        //    To calculate the efficiency of a worker, the time taken for the task is
+        //    obtained via user input from the keyboard.
+
+        // #region Problem-18
+        //
+        // Console.Write("Enter the time taken to complete the task : ");
+        // double t = double.Parse(Console.ReadLine());
+        //
+        // if (t >= 2 && t <= 3)  Console.WriteLine("Highly efficient");
+        // else if (t > 3 && t <= 4) Console.WriteLine("Increase your speed");
+        // else if (t > 4 && t <= 5) Console.WriteLine("Training to enhance your speed");
+        // else if (t > 5) Console.WriteLine("Leave the company");
+        // else Console.WriteLine("Invalid input");
+        //
+        // #endregion
+
 
     }
 
@@ -238,5 +304,11 @@ class Program
              return false;
        }
        return true;
+    }
+    
+    public class Point
+    {
+       public int X;
+       public int Y;
     }
 }
