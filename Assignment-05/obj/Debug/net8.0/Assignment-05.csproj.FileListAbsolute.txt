@@ -1,0 +1,14 @@
+/Users/macbook/Documents/Assignment-05/Assignment-05/bin/Debug/net8.0/Assignment-05
+/Users/macbook/Documents/Assignment-05/Assignment-05/bin/Debug/net8.0/Assignment-05.deps.json
+/Users/macbook/Documents/Assignment-05/Assignment-05/bin/Debug/net8.0/Assignment-05.runtimeconfig.json
+/Users/macbook/Documents/Assignment-05/Assignment-05/bin/Debug/net8.0/Assignment-05.dll
+/Users/macbook/Documents/Assignment-05/Assignment-05/bin/Debug/net8.0/Assignment-05.pdb
+/Users/macbook/Documents/Assignment-05/Assignment-05/obj/Debug/net8.0/Assignment-05.GeneratedMSBuildEditorConfig.editorconfig
+/Users/macbook/Documents/Assignment-05/Assignment-05/obj/Debug/net8.0/Assignment-05.AssemblyInfoInputs.cache
+/Users/macbook/Documents/Assignment-05/Assignment-05/obj/Debug/net8.0/Assignment-05.AssemblyInfo.cs
+/Users/macbook/Documents/Assignment-05/Assignment-05/obj/Debug/net8.0/Assignment-05.csproj.CoreCompileInputs.cache
+/Users/macbook/Documents/Assignment-05/Assignment-05/obj/Debug/net8.0/Assignment-05.dll
+/Users/macbook/Documents/Assignment-05/Assignment-05/obj/Debug/net8.0/refint/Assignment-05.dll
+/Users/macbook/Documents/Assignment-05/Assignment-05/obj/Debug/net8.0/Assignment-05.pdb
+/Users/macbook/Documents/Assignment-05/Assignment-05/obj/Debug/net8.0/Assignment-05.genruntimeconfig.cache
+/Users/macbook/Documents/Assignment-05/Assignment-05/obj/Debug/net8.0/ref/Assignment-05.dll

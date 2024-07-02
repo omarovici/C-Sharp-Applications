@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/macbook/Documents/Assignment-02/Assignment-02/Assignment-02.csproj",
-      "projectName": "Assignment-02",
-      "projectPath": "/Users/macbook/Documents/Assignment-02/Assignment-02/Assignment-02.csproj",
+      "projectUniqueName": "/Users/macbook/Documents/Assignment-01/Assignment-01/Assignment-01.csproj",
+      "projectName": "Assignment-01",
+      "projectPath": "/Users/macbook/Documents/Assignment-01/Assignment-01/Assignment-01.csproj",
       "packagesPath": "/Users/macbook/.nuget/packages/",
-      "outputPath": "/Users/macbook/Documents/Assignment-02/Assignment-02/obj/",
+      "outputPath": "/Users/macbook/Documents/Assignment-01/Assignment-01/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/macbook/.nuget/NuGet/NuGet.Config"
