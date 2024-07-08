@@ -19,13 +19,17 @@ public class Employee
             }
             else
             {
-                Console.WriteLine("Please enter the gender , it must be M or F");
+                throw new ArgumentException("Please enter the gender , it must be M or F");
             }
         }
     }
 
     public Employee(int id , string name ,SecurityLevel securityLevel, decimal salary , HiringDate hireDate , string gender)
     {
+        if (id <= 0) throw new ArgumentException("ID must be positive");
+        if (string.IsNullOrWhiteSpace(name)) throw new ArgumentException("Name cannot be empty");
+        if (salary < 0) throw new ArgumentException("Salary must be positive");
+        
         ID = id;
         Name = name;
         SecurityLevel = securityLevel;

@@ -8,6 +8,10 @@ public class HiringDate
 
     public HiringDate(int day , int month , int year)
     {
+        if (day < 1 || day > 31) throw new ArgumentException("Invalid day");
+        if (month < 1 || month > 12) throw new ArgumentException("Invalid month");
+        if (year < 1900 || year > DateTime.Now.Year) throw new ArgumentException("Invalid year");
+
         Day = day;
         Month = month;
         Year = year;
