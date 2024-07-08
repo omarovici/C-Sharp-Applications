@@ -35,7 +35,7 @@ public class Employee
     }
     public override string ToString()
     {
-        return string.Format("ID: {0}, Name: {1}, Security Level: {2}, Salary: {3}, Hire Date: {4}, Gender: {5}",ID,Name,SecurityLevel,Salary,HireDate,Gender);
+        return string.Format("ID: {0}, Name: {1}, Security Level: {2}, Salary: {3:C}, Hire Date: {4}, Gender: {5}",ID,Name,SecurityLevel,Salary,HireDate,Gender);
     }
 
 }
