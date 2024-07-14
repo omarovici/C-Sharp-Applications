@@ -1,0 +1,14 @@
+/Users/macbook/Documents/Assignment-04-OOP/Assignment-04-OOP/bin/Debug/net8.0/Assignment-04-OOP
+/Users/macbook/Documents/Assignment-04-OOP/Assignment-04-OOP/bin/Debug/net8.0/Assignment-04-OOP.deps.json
+/Users/macbook/Documents/Assignment-04-OOP/Assignment-04-OOP/bin/Debug/net8.0/Assignment-04-OOP.runtimeconfig.json
+/Users/macbook/Documents/Assignment-04-OOP/Assignment-04-OOP/bin/Debug/net8.0/Assignment-04-OOP.dll
+/Users/macbook/Documents/Assignment-04-OOP/Assignment-04-OOP/bin/Debug/net8.0/Assignment-04-OOP.pdb
+/Users/macbook/Documents/Assignment-04-OOP/Assignment-04-OOP/obj/Debug/net8.0/Assignment-04-OOP.GeneratedMSBuildEditorConfig.editorconfig
+/Users/macbook/Documents/Assignment-04-OOP/Assignment-04-OOP/obj/Debug/net8.0/Assignment-04-OOP.AssemblyInfoInputs.cache
+/Users/macbook/Documents/Assignment-04-OOP/Assignment-04-OOP/obj/Debug/net8.0/Assignment-04-OOP.AssemblyInfo.cs
+/Users/macbook/Documents/Assignment-04-OOP/Assignment-04-OOP/obj/Debug/net8.0/Assignment-04-OOP.csproj.CoreCompileInputs.cache
+/Users/macbook/Documents/Assignment-04-OOP/Assignment-04-OOP/obj/Debug/net8.0/Assignment-04-OOP.dll
+/Users/macbook/Documents/Assignment-04-OOP/Assignment-04-OOP/obj/Debug/net8.0/refint/Assignment-04-OOP.dll
+/Users/macbook/Documents/Assignment-04-OOP/Assignment-04-OOP/obj/Debug/net8.0/Assignment-04-OOP.pdb
+/Users/macbook/Documents/Assignment-04-OOP/Assignment-04-OOP/obj/Debug/net8.0/Assignment-04-OOP.genruntimeconfig.cache
+/Users/macbook/Documents/Assignment-04-OOP/Assignment-04-OOP/obj/Debug/net8.0/ref/Assignment-04-OOP.dll
