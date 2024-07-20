@@ -1,0 +1,14 @@
+/Users/macbook/Documents/Assignment-01-Advanced/Assignment-01-Advanced/bin/Debug/net8.0/Assignment-01-Advanced
+/Users/macbook/Documents/Assignment-01-Advanced/Assignment-01-Advanced/bin/Debug/net8.0/Assignment-01-Advanced.deps.json
+/Users/macbook/Documents/Assignment-01-Advanced/Assignment-01-Advanced/bin/Debug/net8.0/Assignment-01-Advanced.runtimeconfig.json
+/Users/macbook/Documents/Assignment-01-Advanced/Assignment-01-Advanced/bin/Debug/net8.0/Assignment-01-Advanced.dll
+/Users/macbook/Documents/Assignment-01-Advanced/Assignment-01-Advanced/bin/Debug/net8.0/Assignment-01-Advanced.pdb
+/Users/macbook/Documents/Assignment-01-Advanced/Assignment-01-Advanced/obj/Debug/net8.0/Assignment-01-Advanced.GeneratedMSBuildEditorConfig.editorconfig
+/Users/macbook/Documents/Assignment-01-Advanced/Assignment-01-Advanced/obj/Debug/net8.0/Assignment-01-Advanced.AssemblyInfoInputs.cache
+/Users/macbook/Documents/Assignment-01-Advanced/Assignment-01-Advanced/obj/Debug/net8.0/Assignment-01-Advanced.AssemblyInfo.cs
+/Users/macbook/Documents/Assignment-01-Advanced/Assignment-01-Advanced/obj/Debug/net8.0/Assignment-01-Advanced.csproj.CoreCompileInputs.cache
+/Users/macbook/Documents/Assignment-01-Advanced/Assignment-01-Advanced/obj/Debug/net8.0/Assignment-01-Advanced.dll
+/Users/macbook/Documents/Assignment-01-Advanced/Assignment-01-Advanced/obj/Debug/net8.0/refint/Assignment-01-Advanced.dll
+/Users/macbook/Documents/Assignment-01-Advanced/Assignment-01-Advanced/obj/Debug/net8.0/Assignment-01-Advanced.pdb
+/Users/macbook/Documents/Assignment-01-Advanced/Assignment-01-Advanced/obj/Debug/net8.0/Assignment-01-Advanced.genruntimeconfig.cache
+/Users/macbook/Documents/Assignment-01-Advanced/Assignment-01-Advanced/obj/Debug/net8.0/ref/Assignment-01-Advanced.dll
