@@ -102,16 +102,13 @@ class Program
     {
         if (arrayList != null)
         {
-            ArrayList tmp = new ArrayList(arrayList.Count);
-
-            for (int i = arrayList.Count - 1; i >= 0; i--)
+            int cnt = arrayList.Count;
+            int x = cnt / 2;
+            for (int i = 0; i < x; i++)
             {
-                tmp.Add(arrayList[i]);
-            }
-
-            for (int i = 0; i < arrayList.Count; i++)
-            {
-                arrayList[i] = tmp[i];
+                object tmp = arrayList[i];
+                arrayList[i] = arrayList[cnt - i - 1];
+                arrayList[cnt - i - 1] = tmp;
             }
         }
     }
