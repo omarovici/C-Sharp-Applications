@@ -9,7 +9,7 @@ public class BookFunctions
 
     public static string GetAuthors(Book B)
     {
-        return string.Join(", ", B.Authors);
+        return string.Join(" - ", B.Authors);
     }
     public static string GetPrice(Book B)
     {
