@@ -1,0 +1,14 @@
+/Users/macbook/Documents/Linq-Demo/Linq-Demo/bin/Debug/net8.0/Linq-Demo
+/Users/macbook/Documents/Linq-Demo/Linq-Demo/bin/Debug/net8.0/Linq-Demo.deps.json
+/Users/macbook/Documents/Linq-Demo/Linq-Demo/bin/Debug/net8.0/Linq-Demo.runtimeconfig.json
+/Users/macbook/Documents/Linq-Demo/Linq-Demo/bin/Debug/net8.0/Linq-Demo.dll
+/Users/macbook/Documents/Linq-Demo/Linq-Demo/bin/Debug/net8.0/Linq-Demo.pdb
+/Users/macbook/Documents/Linq-Demo/Linq-Demo/obj/Debug/net8.0/Linq-Demo.GeneratedMSBuildEditorConfig.editorconfig
+/Users/macbook/Documents/Linq-Demo/Linq-Demo/obj/Debug/net8.0/Linq-Demo.AssemblyInfoInputs.cache
+/Users/macbook/Documents/Linq-Demo/Linq-Demo/obj/Debug/net8.0/Linq-Demo.AssemblyInfo.cs
+/Users/macbook/Documents/Linq-Demo/Linq-Demo/obj/Debug/net8.0/Linq-Demo.csproj.CoreCompileInputs.cache
+/Users/macbook/Documents/Linq-Demo/Linq-Demo/obj/Debug/net8.0/Linq-Demo.dll
+/Users/macbook/Documents/Linq-Demo/Linq-Demo/obj/Debug/net8.0/refint/Linq-Demo.dll
+/Users/macbook/Documents/Linq-Demo/Linq-Demo/obj/Debug/net8.0/Linq-Demo.pdb
+/Users/macbook/Documents/Linq-Demo/Linq-Demo/obj/Debug/net8.0/Linq-Demo.genruntimeconfig.cache
+/Users/macbook/Documents/Linq-Demo/Linq-Demo/obj/Debug/net8.0/ref/Linq-Demo.dll
