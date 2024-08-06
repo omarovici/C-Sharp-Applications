@@ -1,0 +1,14 @@
+/Users/macbook/Documents/LINQ-Demo-1/LINQ-Demo-1/bin/Debug/net8.0/LINQ-Demo-1
+/Users/macbook/Documents/LINQ-Demo-1/LINQ-Demo-1/bin/Debug/net8.0/LINQ-Demo-1.deps.json
+/Users/macbook/Documents/LINQ-Demo-1/LINQ-Demo-1/bin/Debug/net8.0/LINQ-Demo-1.runtimeconfig.json
+/Users/macbook/Documents/LINQ-Demo-1/LINQ-Demo-1/bin/Debug/net8.0/LINQ-Demo-1.dll
+/Users/macbook/Documents/LINQ-Demo-1/LINQ-Demo-1/bin/Debug/net8.0/LINQ-Demo-1.pdb
+/Users/macbook/Documents/LINQ-Demo-1/LINQ-Demo-1/obj/Debug/net8.0/LINQ-Demo-1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/macbook/Documents/LINQ-Demo-1/LINQ-Demo-1/obj/Debug/net8.0/LINQ-Demo-1.AssemblyInfoInputs.cache
+/Users/macbook/Documents/LINQ-Demo-1/LINQ-Demo-1/obj/Debug/net8.0/LINQ-Demo-1.AssemblyInfo.cs
+/Users/macbook/Documents/LINQ-Demo-1/LINQ-Demo-1/obj/Debug/net8.0/LINQ-Demo-1.csproj.CoreCompileInputs.cache
+/Users/macbook/Documents/LINQ-Demo-1/LINQ-Demo-1/obj/Debug/net8.0/LINQ-Demo-1.dll
+/Users/macbook/Documents/LINQ-Demo-1/LINQ-Demo-1/obj/Debug/net8.0/refint/LINQ-Demo-1.dll
+/Users/macbook/Documents/LINQ-Demo-1/LINQ-Demo-1/obj/Debug/net8.0/LINQ-Demo-1.pdb
+/Users/macbook/Documents/LINQ-Demo-1/LINQ-Demo-1/obj/Debug/net8.0/LINQ-Demo-1.genruntimeconfig.cache
+/Users/macbook/Documents/LINQ-Demo-1/LINQ-Demo-1/obj/Debug/net8.0/ref/LINQ-Demo-1.dll
