@@ -1,0 +1,14 @@
+/Users/macbook/Documents/Assignment-02-LINQ/Assignment-02-LINQ/bin/Debug/net8.0/Assignment-02-LINQ
+/Users/macbook/Documents/Assignment-02-LINQ/Assignment-02-LINQ/bin/Debug/net8.0/Assignment-02-LINQ.deps.json
+/Users/macbook/Documents/Assignment-02-LINQ/Assignment-02-LINQ/bin/Debug/net8.0/Assignment-02-LINQ.runtimeconfig.json
+/Users/macbook/Documents/Assignment-02-LINQ/Assignment-02-LINQ/bin/Debug/net8.0/Assignment-02-LINQ.dll
+/Users/macbook/Documents/Assignment-02-LINQ/Assignment-02-LINQ/bin/Debug/net8.0/Assignment-02-LINQ.pdb
+/Users/macbook/Documents/Assignment-02-LINQ/Assignment-02-LINQ/obj/Debug/net8.0/Assignment-02-LINQ.GeneratedMSBuildEditorConfig.editorconfig
+/Users/macbook/Documents/Assignment-02-LINQ/Assignment-02-LINQ/obj/Debug/net8.0/Assignment-02-LINQ.AssemblyInfoInputs.cache
+/Users/macbook/Documents/Assignment-02-LINQ/Assignment-02-LINQ/obj/Debug/net8.0/Assignment-02-LINQ.AssemblyInfo.cs
+/Users/macbook/Documents/Assignment-02-LINQ/Assignment-02-LINQ/obj/Debug/net8.0/Assignment-02-LINQ.csproj.CoreCompileInputs.cache
+/Users/macbook/Documents/Assignment-02-LINQ/Assignment-02-LINQ/obj/Debug/net8.0/Assignment-02-LINQ.dll
+/Users/macbook/Documents/Assignment-02-LINQ/Assignment-02-LINQ/obj/Debug/net8.0/refint/Assignment-02-LINQ.dll
+/Users/macbook/Documents/Assignment-02-LINQ/Assignment-02-LINQ/obj/Debug/net8.0/Assignment-02-LINQ.pdb
+/Users/macbook/Documents/Assignment-02-LINQ/Assignment-02-LINQ/obj/Debug/net8.0/Assignment-02-LINQ.genruntimeconfig.cache
+/Users/macbook/Documents/Assignment-02-LINQ/Assignment-02-LINQ/obj/Debug/net8.0/ref/Assignment-02-LINQ.dll
