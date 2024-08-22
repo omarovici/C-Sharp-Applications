@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment-03-EF-Core", "Assignment-03-EF-Core\Assignment-03-EF-Core.csproj", "{8330E1E5-31C5-4CCA-9037-4FA049C2209D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseFirst", "DatabaseFirst\DatabaseFirst.csproj", "{EAF02216-9310-43F4-862D-EBFFABCDC0A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8330E1E5-31C5-4CCA-9037-4FA049C2209D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8330E1E5-31C5-4CCA-9037-4FA049C2209D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8330E1E5-31C5-4CCA-9037-4FA049C2209D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8330E1E5-31C5-4CCA-9037-4FA049C2209D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAF02216-9310-43F4-862D-EBFFABCDC0A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAF02216-9310-43F4-862D-EBFFABCDC0A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAF02216-9310-43F4-862D-EBFFABCDC0A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAF02216-9310-43F4-862D-EBFFABCDC0A0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
