@@ -1,0 +1,15 @@
+/Users/macbook/Documents/Company.Web/Company.Repository/bin/Debug/net8.0/Company.Repository.deps.json
+/Users/macbook/Documents/Company.Web/Company.Repository/bin/Debug/net8.0/Company.Repository.dll
+/Users/macbook/Documents/Company.Web/Company.Repository/bin/Debug/net8.0/Company.Repository.pdb
+/Users/macbook/Documents/Company.Web/Company.Repository/bin/Debug/net8.0/Company.Data.dll
+/Users/macbook/Documents/Company.Web/Company.Repository/bin/Debug/net8.0/Company.Data.pdb
+/Users/macbook/Documents/Company.Web/Company.Repository/obj/Debug/net8.0/Company.Repository.csproj.AssemblyReference.cache
+/Users/macbook/Documents/Company.Web/Company.Repository/obj/Debug/net8.0/Company.Repository.GeneratedMSBuildEditorConfig.editorconfig
+/Users/macbook/Documents/Company.Web/Company.Repository/obj/Debug/net8.0/Company.Repository.AssemblyInfoInputs.cache
+/Users/macbook/Documents/Company.Web/Company.Repository/obj/Debug/net8.0/Company.Repository.AssemblyInfo.cs
+/Users/macbook/Documents/Company.Web/Company.Repository/obj/Debug/net8.0/Company.Repository.csproj.CoreCompileInputs.cache
+/Users/macbook/Documents/Company.Web/Company.Repository/obj/Debug/net8.0/Company..98502CC8.Up2Date
+/Users/macbook/Documents/Company.Web/Company.Repository/obj/Debug/net8.0/Company.Repository.dll
+/Users/macbook/Documents/Company.Web/Company.Repository/obj/Debug/net8.0/refint/Company.Repository.dll
+/Users/macbook/Documents/Company.Web/Company.Repository/obj/Debug/net8.0/Company.Repository.pdb
+/Users/macbook/Documents/Company.Web/Company.Repository/obj/Debug/net8.0/ref/Company.Repository.dll
