@@ -1,5 +1,7 @@
 using Company.Repository.Interfaces;
 using Company.Repository.Repositories;
+using Company.Service.Interfaces;
+using Company.Service.Interfaces.Services;
 using Data.Models.Contexts;
 using Microsoft.EntityFrameworkCore;
 
@@ -18,7 +20,9 @@ public class Program
         {
             options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
         });
-        builder.Services.AddScoped<IDepartmentRepository, DepartmentRepository>();
+        // builder.Services.AddScoped<IDepartmentRepository, DepartmentRepository>();
+        builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+        builder.Services.AddScoped<IdepartmentService, DepartmentService>();
         
         var app = builder.Build();
 

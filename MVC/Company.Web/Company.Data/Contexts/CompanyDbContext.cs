@@ -17,9 +17,10 @@ public class CompanyDbContext : DbContext
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
+        // modelBuilder.Entity<BaseEntity>().HasQueryFilter(x => !x.IsDeleted);
         base.OnModelCreating(modelBuilder);
     }
-
+    
     public DbSet<Employee> Employees { get; set; }
     public DbSet<Department> Departments { get; set; }
 }

@@ -26,12 +26,28 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/macbook/Documents/Company.Web/Company.Web
 build_property._RazorSourceGeneratorDebug = 
 
+[/Users/macbook/Documents/Company.Web/Company.Web/Views/Department/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGVwYXJ0bWVudC9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/macbook/Documents/Company.Web/Company.Web/Views/Department/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGVwYXJ0bWVudC9EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/macbook/Documents/Company.Web/Company.Web/Views/Department/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGVwYXJ0bWVudC9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/macbook/Documents/Company.Web/Company.Web/Views/Department/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGVwYXJ0bWVudC9VcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/macbook/Documents/Company.Web/Company.Web/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/macbook/Documents/Company.Web/Company.Web/Views/Home/NotFoundPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Ob3RGb3VuZFBhZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/macbook/Documents/Company.Web/Company.Web/Views/Home/Privacy.cshtml]

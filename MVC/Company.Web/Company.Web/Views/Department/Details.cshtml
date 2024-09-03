@@ -1,0 +1,28 @@
+@using Microsoft.AspNetCore.Mvc.TagHelpers
+@model Data.Models.Entities.Department
+
+@{
+    ViewData["Title"] = "Department Details";
+}
+
+<h1>Department Details</h1>
+
+<br />
+<br />
+
+<form asp-action="Edit" asp-route-id="@Model.Id">
+    <div class="form-group">
+        <label class="col-form-label" asp-for="Code"></label>
+        <input type="text" asp-for="Code" class="form-control" readonly />
+    </div>
+    <div class="form-group">
+        <label class="col-form-label" asp-for="Name"></label>
+        <input type="text" asp-for="Name" class="form-control" readonly />
+    </div>
+    <div class="form-group">
+        <label class="col-form-label" asp-for="CreateAt"></label>
+        <input asp-for="CreateAt" class="form-control" readonly />
+    </div>
+    <input type="submit" value="Edit" class="btn btn-primary" />
+    <a asp-action="Index" class="btn btn-light">Back To List</a>
+</form>
