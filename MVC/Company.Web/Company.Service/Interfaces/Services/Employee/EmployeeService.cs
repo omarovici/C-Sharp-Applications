@@ -35,14 +35,6 @@ public class EmployeeService : IEmployeeService
         {
             Id = department.Id,
             Name = department.Name,
-            Age = department.Age,
-            Address = department.Address,
-            Salary = department.Salary,
-            Email = department.Email,
-            PhoneNumber = department.PhoneNumber,
-            HireDate = department.HireDate,
-            ImageUrl = department.ImageUrl,
-            DepartmentId = department.DepartmentId
         };
 
         _unitOfWork.EmployeeRepository.Add(mappedDepartment);

@@ -1,0 +1,48 @@
+@using Microsoft.AspNetCore.Mvc.TagHelpers
+@model Data.Models.Entities.Employee
+
+@{
+    ViewData["Title"] = "Edit Employee";
+}
+
+<h1>Edit Employee</h1>
+
+<br />
+<br />
+
+<form asp-action="Update">
+    <div asp-validation-summary="All"></div>
+    
+    <div class="form-group">
+        <label class="col-form-label" asp-for="Name"></label>
+        <input type="text" asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label class="col-form-label" asp-for="Age"></label>
+        <input type="number" asp-for="Age" class="form-control" />
+        @* <span asp-validation-for="Name" class="text-danger"></span> *@
+    </div>
+    <div class="form-group">
+        <label class="col-form-label" asp-for="Address"></label>
+        <input type="text" asp-for="Address" class="form-control" />
+        @* <span asp-validation-for="Name" class="text-danger"></span> *@
+    </div>
+    <div class="form-group">
+        <label class="col-form-label" asp-for="Email"></label>
+        <input type="text" asp-for="Email" class="form-control" />
+        @* <span asp-validation-for="Name" class="text-danger"></span> *@
+    </div>
+    <div class="form-group">
+        <label class="col-form-label" asp-for="PhoneNumber"></label>
+        <input type="text" asp-for="PhoneNumber" class="form-control" />
+        @* <span asp-validation-for="Name" class="text-danger"></span> *@
+    </div>
+    <div class="form-group">
+        <label class="col-form-label" asp-for="Salary"></label>
+        <input type="number" asp-for="Salary" class="form-control" />
+        @* <span asp-validation-for="Name" class="text-danger"></span> *@
+    </div>
+    <input type="submit" value="Save" class="btn btn-primary" />
+    <a asp-action="Index" class="btn btn-light">Back To List</a>
+</form>
