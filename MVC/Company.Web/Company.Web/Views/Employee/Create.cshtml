@@ -1,0 +1,61 @@
+@using Microsoft.AspNetCore.Mvc.TagHelpers
+@model Data.Models.Entities.Employee
+@{
+    ViewData["Title"] = "Create";
+}
+<h1>Create New Employee</h1>
+<br/>
+<br/>
+
+<form asp-action="Create" asp-controller="Employee">
+    <div class="form-group">
+        <label class="col-form-label" asp-for="Name"></label>
+        <input type="text" asp-for="Name" class="form-control" />
+        @* <span asp-validation-for="Name" class="text-danger"></span> *@
+    </div>
+    <div class="form-group">
+        <label class="col-form-label" asp-for="Age"></label>
+        <input type="number" asp-for="Age" class="form-control" />
+        @* <span asp-validation-for="Age" class="text-danger"></span> *@
+    </div>
+    <div class="form-group">
+        <label class="col-form-label" asp-for="Address"></label>
+        <input type="text" asp-for="Address" class="form-control" />
+        @* <span asp-validation-for="Address" class="text-danger"></span> *@
+    </div>
+    <div class="form-group">
+        <label class="col-form-label" asp-for="Salary"></label>
+        <input type="number" asp-for="Salary" class="form-control" />
+        @* <span asp-validation-for="Salary" class="text-danger"></span> *@
+    </div>
+    <div class="form-group">
+        <label class="col-form-label" asp-for="Email"></label>
+        <input type="email" asp-for="Email" class="form-control" />
+        @* <span asp-validation-for="Email" class="text-danger"></span> *@
+    </div>
+    <div class="form-group">
+        <label class="col-form-label" asp-for="PhoneNumber"></label>
+        <input type="text" asp-for="PhoneNumber" class="form-control" />
+        @* <span asp-validation-for="PhoneNumber" class="text-danger"></span> *@
+    </div>
+    <div class="form-group">
+        <label class="col-form-label" asp-for="HireDate"></label>
+        <input type="date" asp-for="HireDate" class="form-control" />
+        @* <span asp-validation-for="HireDate" class="text-danger"></span> *@
+    </div>
+    <div class="form-group">
+        <label class="col-form-label" asp-for="ImageUrl"></label>
+        <input type="text" asp-for="ImageUrl" class="form-control" />
+        @* <span asp-validation-for="ImageUrl" class="text-danger"></span> *@
+    </div>
+    <div class="form-group">
+        <label class="col-form-label" asp-for="DepartmentId"></label>
+        <input type="text" asp-for="DepartmentId" class="form-control" />
+        @* <span asp-validation-for="DepartmentId" class="text-danger"></span> *@
+    </div>
+    <div>
+        @Html.ValidationSummary(true, "EmployeeError","Error While Adding Employee")
+    </div>
+    <input type="submit" value="Create" class="btn btn-primary" />
+    <a asp-action="Index" class="btn btn-light">Back To List</a>
+</form>

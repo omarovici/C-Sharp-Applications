@@ -2790,11 +2790,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/macbook/Documents/Company.Web/Company.Service/Company.Service.csproj",
+      "projectUniqueName": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Service/Company.Service.csproj",
       "projectName": "Company.Service",
-      "projectPath": "/Users/macbook/Documents/Company.Web/Company.Service/Company.Service.csproj",
+      "projectPath": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Service/Company.Service.csproj",
       "packagesPath": "/Users/macbook/.nuget/packages/",
-      "outputPath": "/Users/macbook/Documents/Company.Web/Company.Service/obj/",
+      "outputPath": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Service/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/macbook/.nuget/NuGet/NuGet.Config"
@@ -2809,8 +2809,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/Users/macbook/Documents/Company.Web/Company.Repository/Company.Repository.csproj": {
-              "projectPath": "/Users/macbook/Documents/Company.Web/Company.Repository/Company.Repository.csproj"
+            "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Repository/Company.Repository.csproj": {
+              "projectPath": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Repository/Company.Repository.csproj"
             }
           }
         }
