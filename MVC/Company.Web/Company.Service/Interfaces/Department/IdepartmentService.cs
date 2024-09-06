@@ -1,17 +1,18 @@
+using Company.Service.Interfaces.Dto;
 using Data.Models.Entities;
 
 namespace Company.Service.Interfaces;
 
 public interface IdepartmentService
 {
-    Department GetById(int? id);
+    DepartmentDto GetById(int? id);
     
-    IEnumerable<Department> GetAll();
+    IEnumerable<DepartmentDto> GetAll();
     
-    void Add(Department department);
+    void Add(DepartmentDto department);
     
-    void Update(Department department);
+    void Update(DepartmentDto department);
     
-    void Delete(Department department);
+    void Delete(DepartmentDto department);
 
 }

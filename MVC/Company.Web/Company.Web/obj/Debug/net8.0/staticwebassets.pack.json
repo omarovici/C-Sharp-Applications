@@ -5,6 +5,18 @@
       "PackagePath": "staticwebassets/Company.Web.bundle.scp.css"
     },
     {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/Files/Images/bd04cbd9-1628-4d50-99df-61ab3c5a1d95-40f037f2c5c8cff9bcd1ac2881c4524f.jpg",
+      "PackagePath": "staticwebassets/Files/Images/bd04cbd9-1628-4d50-99df-61ab3c5a1d95-40f037f2c5c8cff9bcd1ac2881c4524f.jpg"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/Files/Images/d741e047-f558-4f7d-9d8a-46848170932e-file.jpg",
+      "PackagePath": "staticwebassets/Files/Images/d741e047-f558-4f7d-9d8a-46848170932e-file.jpg"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/Files/Images/faa7515e-f52b-4ad6-8a50-b692b95e2ef8-f7619a3d0879f5ead463830c7d36f52a.jpg",
+      "PackagePath": "staticwebassets/Files/Images/faa7515e-f52b-4ad6-8a50-b692b95e2ef8-f7619a3d0879f5ead463830c7d36f52a.jpg"
+    },
+    {
       "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/css/site.css",
       "PackagePath": "staticwebassets/css/site.css"
     },

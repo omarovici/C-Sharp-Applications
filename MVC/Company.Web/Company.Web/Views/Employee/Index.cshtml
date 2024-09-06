@@ -1,59 +1,72 @@
-@model IEnumerable<Data.Models.Entities.Employee>
-@{
-    ViewData["Title"] = "Index";
-}
+@model IEnumerable<Company.Service.Interfaces.Dto.EmployeeDto>
+
+<h1>All Employees</h1>
+
+<br />
+
 <a asp-controller="Employee" asp-action="Create" class="btn btn-primary">Create New Employee</a>
-@if (Model.Count() > 0)
+
+<div class="row justify-content-center align-items-center mt-5">
+    <form class="row col-8 offset-2" asp-action="Index">
+        <div class="col-8">
+            <input type="text" class="form-control" name="searchInp" placeholder="Search By Name" />
+        </div>
+        <div class="col-4">
+            <input type="submit" value="Search" class="btn btn-success" />
+        </div>
+    </form>
+</div>
+@* <div class="mt-5 alert alert-danger"> *@
+@*     <h3>@ViewBag.Message</h3> *@
+@* </div> *@
+@* <div class="mt-5 alert alert-primary"> *@
+@*     <h3>@ViewData["TextMessage"]</h3> *@
+@* </div> *@
+@* <div class="mt-5 alert alert-dark"> *@
+@*     <h3>@TempData["TextTempMessage"]</h3> *@
+@* </div> *@
+
+@if (Model.Any())
 {
-    <table class="table table-striped table-hover">
-        <thead>
-        <tr>
-            <th>@Html.DisplayNameFor(model => model.Name)</th>
-            <th>@Html.DisplayNameFor(model => model.Age)</th>
-            <th>@Html.DisplayNameFor(model => model.Address)</th>
-            <th>@Html.DisplayNameFor(model => model.Salary)</th>
-            <th>@Html.DisplayNameFor(model => model.Email)</th>
-            <th>@Html.DisplayNameFor(model => model.PhoneNumber)</th>
-            <th>@Html.DisplayNameFor(model => model.HireDate)</th>
-            <th>Details</th>
-            <th>Update</th>
-            <th>Delete</th>
-        </tr>
-        </thead>
-        <tbody>
-        @foreach (var employee in Model)
-        {
-            <tr>
-                <td>@employee.Name</td>
-                <td>@employee.Age</td>
-                <td>@employee.Address</td>
-                <td>@employee.Salary</td>
-                <td>@employee.Email</td>
-                <td>@employee.PhoneNumber</td>
-                <td>@employee.HireDate</td>
-                <td>
-                    <a asp-action="Details" asp-route-id="@employee.Id" class="btn btn-warning">
-                        <i class="fas fa-eye"></i> Details
-                    </a>
-                </td>
-                <td>
-                    <a asp-action="Update" asp-route-id="@employee.Id" class="btn btn-success">
-                        <i class="fas fa-edit"></i> Update
-                    </a>
-                </td>
-                <td>
-                    <a asp-action="Delete" asp-route-id="@employee.Id" class="btn btn-danger">
-                        <i class="fas fa-trash"></i> Delete
-                    </a>
-                </td>
-            </tr>
-        }
-        </tbody>
-    </table>
+<table class="table table-striped table-hover">
+    <thead>
+    <tr>
+        <th>@Html.DisplayNameFor(model => model.Name)</th>
+        <th>@Html.DisplayNameFor(model => model.Image)</th>
+        <th>@Html.DisplayNameFor(model => model.Age)</th>
+        <th>@Html.DisplayNameFor(model => model.Address)</th>
+        <th>@Html.DisplayNameFor(model => model.Salary)</th>
+        <th>@Html.DisplayNameFor(model => model.Email)</th>
+        <th>@Html.DisplayNameFor(model => model.PhoneNumber)</th>
+        <th>@Html.DisplayNameFor(model => model.HireDate)</th>
+        <th>Details</th>
+        <th>Update</th>
+        <th>Delete</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var employee in Model)
+    {
+    <tr>
+        <td>@employee.Name</td>
+        <td>
+            <img src="~/Files/Images/@employee.ImageUrl" height="40" width="40" alt="" />
+        </td>
+        <td>@employee.Age</td>
+        <td>@employee.Address</td>
+        <td>@Html.DisplayFor(model => employee.Salary)</td>
+        <td>@Html.DisplayFor(model => employee.Email)</td>
+        <td>@employee.PhoneNumber</td>
+        <td>@employee.HireDate</td>
+        <partial model="@employee.Id.ToString()" name="_ActionButtonsPartialView"/>
+    </tr>
+    }
+    </tbody>
+</table>
 }
 else
 {
-    <div class = "mt-5 alert alert-warning">
-        <h3>There are no Employees</h3>
-    </div>
+<div class="mt-5 alert alert-warning">
+    <h3>There is no Employees</h3>
+</div>
 }

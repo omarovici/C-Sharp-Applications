@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "zoNmDZCk/0VrXVtCG+NpjMmuO+CUg9duuBwdKsTM6dP//dtxId+4WpvYy71n5LpoyKnoIq5vn2ICJPW7cxVbwQ==",
+  "dgSpecHash": "rExNfErEvV1XpqE/2T5REPXz8O55umAAnx0qoYjQU/fytY5GXtusilJJNN3i7Z9DLMYZc/gXicqlzpIFWsNidw==",
   "success": true,
   "projectFilePath": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Service/Company.Service.csproj",
   "expectedPackageFiles": [
+    "/Users/macbook/.nuget/packages/automapper/13.0.1/automapper.13.0.1.nupkg.sha512",
     "/Users/macbook/.nuget/packages/azure.core/1.35.0/azure.core.1.35.0.nupkg.sha512",
     "/Users/macbook/.nuget/packages/azure.identity/1.10.3/azure.identity.1.10.3.nupkg.sha512",
+    "/Users/macbook/.nuget/packages/microsoft.aspnetcore.http.features/6.0.0-preview.4.21253.5/microsoft.aspnetcore.http.features.6.0.0-preview.4.21253.5.nupkg.sha512",
     "/Users/macbook/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.1/microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "/Users/macbook/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
     "/Users/macbook/.nuget/packages/microsoft.data.sqlclient/5.1.5/microsoft.data.sqlclient.5.1.5.nupkg.sha512",
@@ -42,6 +44,7 @@
     "/Users/macbook/.nuget/packages/system.formats.asn1/5.0.0/system.formats.asn1.5.0.0.nupkg.sha512",
     "/Users/macbook/.nuget/packages/system.identitymodel.tokens.jwt/6.35.0/system.identitymodel.tokens.jwt.6.35.0.nupkg.sha512",
     "/Users/macbook/.nuget/packages/system.io.filesystem.accesscontrol/5.0.0/system.io.filesystem.accesscontrol.5.0.0.nupkg.sha512",
+    "/Users/macbook/.nuget/packages/system.io.pipelines/6.0.0-preview.4.21253.7/system.io.pipelines.6.0.0-preview.4.21253.7.nupkg.sha512",
     "/Users/macbook/.nuget/packages/system.memory/4.5.4/system.memory.4.5.4.nupkg.sha512",
     "/Users/macbook/.nuget/packages/system.memory.data/1.0.2/system.memory.data.1.0.2.nupkg.sha512",
     "/Users/macbook/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",

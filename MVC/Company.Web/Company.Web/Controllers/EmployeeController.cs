@@ -1,71 +1,70 @@
 using Company.Service.Interfaces;
+using Company.Service.Interfaces.Dto;
+using Company.Web.Models;
 using Data.Models.Entities;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Company.Web.Controllers;
-
-public class EmployeeController : Controller
+namespace Company.Web.Controllers
 {
-    private readonly IEmployeeService _employeeService;
-    public EmployeeController(IEmployeeService employeeService)
+    public class EmployeeController : Controller
     {
-        _employeeService = employeeService;
-    }
-    // GET
-    public IActionResult Index()
-    {
-        var employees = _employeeService.GetAll();
-        return View(employees);
-    }
-    [HttpGet]
-    public IActionResult Create()
-    {
-        return View();
-    }
+        private readonly IEmployeeService _employeeService;
+        private readonly IdepartmentService _departmentService;
 
-    [HttpPost]
-    public IActionResult Create(Employee employee)
-    {
-        try
+        public EmployeeController(IEmployeeService employeeService,IdepartmentService departmentService)
         {
-            if (ModelState.IsValid)
+            _employeeService = employeeService;
+            _departmentService = departmentService;
+        }
+
+        public ActionResult Index(string searchInp)
+        {
+            // ViewBag.Message = "Hello From Employee Index (ViewBag)";
+            //
+            // ViewData["TextMessage"] = "Hello From Employee Index (ViewData)";
+            
+            
+            IEnumerable<EmployeeDto> employees = new List<EmployeeDto>();
+            if (string.IsNullOrEmpty(searchInp))
+                employees = _employeeService.GetAll();
+            else
+                employees = _employeeService.GetEmployeeByName(searchInp);
+            return View(employees);
+        }
+        public IActionResult Delete(int? id)
+        {
+            var employee = _employeeService.GetById(id);
+            if (employee is null)
+                return RedirectToAction("NotFoundPage", null,"Home");
+            
+            _employeeService.Delete(employee);
+            return RedirectToAction(nameof(Index));
+        }
+        [HttpGet]
+        public IActionResult Create()
+        {
+            var departments = _departmentService.GetAll();
+            ViewBag.Departments = departments;
+            return View();
+        }
+        [HttpPost]
+        public IActionResult Create(EmployeeDto employee)
+        {
+            try
             {
-                _employeeService.Add(employee);
-                return RedirectToAction(nameof(Index));
+                if (ModelState.IsValid)
+                {
+                    _employeeService.Add(employee);
+                    return RedirectToAction(nameof(Index));
+                }
+                
+                return View(employee);
             }
-
-            ModelState.AddModelError("EmployeeError", "Validation Error");
-
-            return View(employee);
+            catch (Exception ex)
+            {
+                return View(employee);
+            }
         }
-        catch (Exception ex)
-        {
-            ModelState.AddModelError("EmployeeError", ex.Message);
-            return View(employee);
-        }
-    }
 
-    public IActionResult Details(int? id, string viewName = "Details")
-    {
-        var employee = _employeeService.GetById(id);
-        if (employee is null)
-            return RedirectToAction("NotFoundPage", null, "Home");
-        
-        return View(viewName,employee);
-    }
-
-    public IActionResult Update(int? id)
-    {
-        return Details(id, "Update");
-    }  
-
-    public IActionResult Delete(int id)
-    {
-        var employee = _employeeService.GetById(id);
-        if (employee is null)
-            return RedirectToAction("NotFoundPage", null, "Home");
-        
-        _employeeService.Delete(employee);
-        return RedirectToAction(nameof(Index));
     }
 }

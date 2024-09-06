@@ -256,6 +256,7 @@
 /Users/macbook/Documents/Company.Web/Company.Web/bin/Debug/net8.0/runtimes/win/lib/net7.0/System.Drawing.Common.dll
 /Users/macbook/Documents/Company.Web/Company.Web/bin/Debug/net8.0/runtimes/win/lib/net7.0/System.Security.Cryptography.ProtectedData.dll
 /Users/macbook/Documents/Company.Web/Company.Web/bin/Debug/net8.0/runtimes/win/lib/net7.0/System.Windows.Extensions.dll
+/Users/macbook/Documents/Company.Web/Company.Web/bin/Debug/net8.0/AutoMapper.dll
 /Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/bin/Debug/net8.0/appsettings.Development.json
 /Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/bin/Debug/net8.0/appsettings.json
 /Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/bin/Debug/net8.0/Company.Web.staticwebassets.runtime.json
@@ -264,6 +265,7 @@
 /Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/bin/Debug/net8.0/Company.Web.runtimeconfig.json
 /Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/bin/Debug/net8.0/Company.Web.dll
 /Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/bin/Debug/net8.0/Company.Web.pdb
+/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/bin/Debug/net8.0/AutoMapper.dll
 /Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/bin/Debug/net8.0/Azure.Core.dll
 /Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/bin/Debug/net8.0/Azure.Identity.dll
 /Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/bin/Debug/net8.0/Humanizer.dll
