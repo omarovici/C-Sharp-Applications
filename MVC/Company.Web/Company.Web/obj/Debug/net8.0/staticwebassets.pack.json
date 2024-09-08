@@ -289,10 +289,6 @@
       "PackagePath": "staticwebassets/images/icons/favicon.ico"
     },
     {
-      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/images/pawel-czerwinski-yn97LNy0bao-unsplash.jpg",
-      "PackagePath": "staticwebassets/images/pawel-czerwinski-yn97LNy0bao-unsplash.jpg"
-    },
-    {
       "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/js/main.js",
       "PackagePath": "staticwebassets/js/main.js"
     },
