@@ -2,7 +2,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace Company.Web.Models;
 
-public class SignUpModel
+public class SignUpViewModel
 {
     [Required(ErrorMessage = "First Name is required")]
     public string FirstName { get; set; }
