@@ -514,9 +514,7 @@
 /Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.Company.Web.props
 /Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.Company.Web.props
 /Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/obj/Debug/net8.0/staticwebassets.pack.json
-/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/obj/Debug/net8.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
 /Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/obj/Debug/net8.0/scopedcss/bundle/Company.Web.styles.css
-/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/obj/Debug/net8.0/scopedcss/projectbundle/Company.Web.bundle.scp.css
 /Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/obj/Debug/net8.0/Company..F2B58D8E.Up2Date
 /Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/obj/Debug/net8.0/Company.Web.dll
 /Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/obj/Debug/net8.0/refint/Company.Web.dll

@@ -1,10 +1,6 @@
 {
   "Files": [
     {
-      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/obj/Debug/net8.0/scopedcss/projectbundle/Company.Web.bundle.scp.css",
-      "PackagePath": "staticwebassets/Company.Web.bundle.scp.css"
-    },
-    {
       "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/Files/Images/bd04cbd9-1628-4d50-99df-61ab3c5a1d95-40f037f2c5c8cff9bcd1ac2881c4524f.jpg",
       "PackagePath": "staticwebassets/Files/Images/bd04cbd9-1628-4d50-99df-61ab3c5a1d95-40f037f2c5c8cff9bcd1ac2881c4524f.jpg"
     },
@@ -17,12 +13,284 @@
       "PackagePath": "staticwebassets/Files/Images/faa7515e-f52b-4ad6-8a50-b692b95e2ef8-f7619a3d0879f5ead463830c7d36f52a.jpg"
     },
     {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/css/main.css",
+      "PackagePath": "staticwebassets/css/main.css"
+    },
+    {
       "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/css/site.css",
       "PackagePath": "staticwebassets/css/site.css"
     },
     {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/css/util.css",
+      "PackagePath": "staticwebassets/css/util.css"
+    },
+    {
       "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/favicon.ico",
       "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/fonts/font-awesome-4.7.0/HELP-US-OUT.txt",
+      "PackagePath": "staticwebassets/fonts/font-awesome-4.7.0/HELP-US-OUT.txt"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/fonts/font-awesome-4.7.0/css/font-awesome.css",
+      "PackagePath": "staticwebassets/fonts/font-awesome-4.7.0/css/font-awesome.css"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/fonts/font-awesome-4.7.0/css/font-awesome.min.css",
+      "PackagePath": "staticwebassets/fonts/font-awesome-4.7.0/css/font-awesome.min.css"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/fonts/font-awesome-4.7.0/fonts/FontAwesome.otf",
+      "PackagePath": "staticwebassets/fonts/font-awesome-4.7.0/fonts/FontAwesome.otf"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.eot"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.svg"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/fonts/font-awesome-4.7.0/less/animated.less",
+      "PackagePath": "staticwebassets/fonts/font-awesome-4.7.0/less/animated.less"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/fonts/font-awesome-4.7.0/less/bordered-pulled.less",
+      "PackagePath": "staticwebassets/fonts/font-awesome-4.7.0/less/bordered-pulled.less"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/fonts/font-awesome-4.7.0/less/core.less",
+      "PackagePath": "staticwebassets/fonts/font-awesome-4.7.0/less/core.less"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/fonts/font-awesome-4.7.0/less/fixed-width.less",
+      "PackagePath": "staticwebassets/fonts/font-awesome-4.7.0/less/fixed-width.less"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/fonts/font-awesome-4.7.0/less/font-awesome.less",
+      "PackagePath": "staticwebassets/fonts/font-awesome-4.7.0/less/font-awesome.less"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/fonts/font-awesome-4.7.0/less/icons.less",
+      "PackagePath": "staticwebassets/fonts/font-awesome-4.7.0/less/icons.less"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/fonts/font-awesome-4.7.0/less/larger.less",
+      "PackagePath": "staticwebassets/fonts/font-awesome-4.7.0/less/larger.less"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/fonts/font-awesome-4.7.0/less/list.less",
+      "PackagePath": "staticwebassets/fonts/font-awesome-4.7.0/less/list.less"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/fonts/font-awesome-4.7.0/less/mixins.less",
+      "PackagePath": "staticwebassets/fonts/font-awesome-4.7.0/less/mixins.less"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/fonts/font-awesome-4.7.0/less/path.less",
+      "PackagePath": "staticwebassets/fonts/font-awesome-4.7.0/less/path.less"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/fonts/font-awesome-4.7.0/less/rotated-flipped.less",
+      "PackagePath": "staticwebassets/fonts/font-awesome-4.7.0/less/rotated-flipped.less"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/fonts/font-awesome-4.7.0/less/screen-reader.less",
+      "PackagePath": "staticwebassets/fonts/font-awesome-4.7.0/less/screen-reader.less"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/fonts/font-awesome-4.7.0/less/stacked.less",
+      "PackagePath": "staticwebassets/fonts/font-awesome-4.7.0/less/stacked.less"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/fonts/font-awesome-4.7.0/less/variables.less",
+      "PackagePath": "staticwebassets/fonts/font-awesome-4.7.0/less/variables.less"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/fonts/font-awesome-4.7.0/scss/_animated.scss",
+      "PackagePath": "staticwebassets/fonts/font-awesome-4.7.0/scss/_animated.scss"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/fonts/font-awesome-4.7.0/scss/_bordered-pulled.scss",
+      "PackagePath": "staticwebassets/fonts/font-awesome-4.7.0/scss/_bordered-pulled.scss"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/fonts/font-awesome-4.7.0/scss/_core.scss",
+      "PackagePath": "staticwebassets/fonts/font-awesome-4.7.0/scss/_core.scss"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/fonts/font-awesome-4.7.0/scss/_fixed-width.scss",
+      "PackagePath": "staticwebassets/fonts/font-awesome-4.7.0/scss/_fixed-width.scss"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/fonts/font-awesome-4.7.0/scss/_icons.scss",
+      "PackagePath": "staticwebassets/fonts/font-awesome-4.7.0/scss/_icons.scss"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/fonts/font-awesome-4.7.0/scss/_larger.scss",
+      "PackagePath": "staticwebassets/fonts/font-awesome-4.7.0/scss/_larger.scss"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/fonts/font-awesome-4.7.0/scss/_list.scss",
+      "PackagePath": "staticwebassets/fonts/font-awesome-4.7.0/scss/_list.scss"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/fonts/font-awesome-4.7.0/scss/_mixins.scss",
+      "PackagePath": "staticwebassets/fonts/font-awesome-4.7.0/scss/_mixins.scss"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/fonts/font-awesome-4.7.0/scss/_path.scss",
+      "PackagePath": "staticwebassets/fonts/font-awesome-4.7.0/scss/_path.scss"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/fonts/font-awesome-4.7.0/scss/_rotated-flipped.scss",
+      "PackagePath": "staticwebassets/fonts/font-awesome-4.7.0/scss/_rotated-flipped.scss"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/fonts/font-awesome-4.7.0/scss/_screen-reader.scss",
+      "PackagePath": "staticwebassets/fonts/font-awesome-4.7.0/scss/_screen-reader.scss"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/fonts/font-awesome-4.7.0/scss/_stacked.scss",
+      "PackagePath": "staticwebassets/fonts/font-awesome-4.7.0/scss/_stacked.scss"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/fonts/font-awesome-4.7.0/scss/_variables.scss",
+      "PackagePath": "staticwebassets/fonts/font-awesome-4.7.0/scss/_variables.scss"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/fonts/font-awesome-4.7.0/scss/font-awesome.scss",
+      "PackagePath": "staticwebassets/fonts/font-awesome-4.7.0/scss/font-awesome.scss"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/fonts/iconic/css/material-design-iconic-font.css",
+      "PackagePath": "staticwebassets/fonts/iconic/css/material-design-iconic-font.css"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/fonts/iconic/css/material-design-iconic-font.min.css",
+      "PackagePath": "staticwebassets/fonts/iconic/css/material-design-iconic-font.min.css"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/fonts/iconic/fonts/Material-Design-Iconic-Font.eot",
+      "PackagePath": "staticwebassets/fonts/iconic/fonts/Material-Design-Iconic-Font.eot"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/fonts/iconic/fonts/Material-Design-Iconic-Font.svg",
+      "PackagePath": "staticwebassets/fonts/iconic/fonts/Material-Design-Iconic-Font.svg"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/fonts/iconic/fonts/Material-Design-Iconic-Font.ttf",
+      "PackagePath": "staticwebassets/fonts/iconic/fonts/Material-Design-Iconic-Font.ttf"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/fonts/iconic/fonts/Material-Design-Iconic-Font.woff",
+      "PackagePath": "staticwebassets/fonts/iconic/fonts/Material-Design-Iconic-Font.woff"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/fonts/iconic/fonts/Material-Design-Iconic-Font.woff2",
+      "PackagePath": "staticwebassets/fonts/iconic/fonts/Material-Design-Iconic-Font.woff2"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/fonts/poppins/Poppins-Black.ttf",
+      "PackagePath": "staticwebassets/fonts/poppins/Poppins-Black.ttf"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/fonts/poppins/Poppins-BlackItalic.ttf",
+      "PackagePath": "staticwebassets/fonts/poppins/Poppins-BlackItalic.ttf"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/fonts/poppins/Poppins-Bold.ttf",
+      "PackagePath": "staticwebassets/fonts/poppins/Poppins-Bold.ttf"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/fonts/poppins/Poppins-BoldItalic.ttf",
+      "PackagePath": "staticwebassets/fonts/poppins/Poppins-BoldItalic.ttf"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/fonts/poppins/Poppins-ExtraBold.ttf",
+      "PackagePath": "staticwebassets/fonts/poppins/Poppins-ExtraBold.ttf"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/fonts/poppins/Poppins-ExtraBoldItalic.ttf",
+      "PackagePath": "staticwebassets/fonts/poppins/Poppins-ExtraBoldItalic.ttf"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/fonts/poppins/Poppins-ExtraLight.ttf",
+      "PackagePath": "staticwebassets/fonts/poppins/Poppins-ExtraLight.ttf"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/fonts/poppins/Poppins-ExtraLightItalic.ttf",
+      "PackagePath": "staticwebassets/fonts/poppins/Poppins-ExtraLightItalic.ttf"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/fonts/poppins/Poppins-Italic.ttf",
+      "PackagePath": "staticwebassets/fonts/poppins/Poppins-Italic.ttf"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/fonts/poppins/Poppins-Light.ttf",
+      "PackagePath": "staticwebassets/fonts/poppins/Poppins-Light.ttf"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/fonts/poppins/Poppins-LightItalic.ttf",
+      "PackagePath": "staticwebassets/fonts/poppins/Poppins-LightItalic.ttf"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/fonts/poppins/Poppins-Medium.ttf",
+      "PackagePath": "staticwebassets/fonts/poppins/Poppins-Medium.ttf"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/fonts/poppins/Poppins-MediumItalic.ttf",
+      "PackagePath": "staticwebassets/fonts/poppins/Poppins-MediumItalic.ttf"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/fonts/poppins/Poppins-Regular.ttf",
+      "PackagePath": "staticwebassets/fonts/poppins/Poppins-Regular.ttf"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/fonts/poppins/Poppins-SemiBold.ttf",
+      "PackagePath": "staticwebassets/fonts/poppins/Poppins-SemiBold.ttf"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/fonts/poppins/Poppins-SemiBoldItalic.ttf",
+      "PackagePath": "staticwebassets/fonts/poppins/Poppins-SemiBoldItalic.ttf"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/fonts/poppins/Poppins-Thin.ttf",
+      "PackagePath": "staticwebassets/fonts/poppins/Poppins-Thin.ttf"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/fonts/poppins/Poppins-ThinItalic.ttf",
+      "PackagePath": "staticwebassets/fonts/poppins/Poppins-ThinItalic.ttf"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/images/.DS_Store",
+      "PackagePath": "staticwebassets/images/.DS_Store"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/images/bg-01.jpg",
+      "PackagePath": "staticwebassets/images/bg-01.jpg"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/images/icons/favicon.ico",
+      "PackagePath": "staticwebassets/images/icons/favicon.ico"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/js/main.js",
+      "PackagePath": "staticwebassets/js/main.js"
     },
     {
       "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/js/site.js",
@@ -255,6 +523,150 @@
     {
       "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/lib/jquery/dist/jquery.min.map",
       "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/vendor/animate/animate.css",
+      "PackagePath": "staticwebassets/vendor/animate/animate.css"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/vendor/animsition/css/animsition.css",
+      "PackagePath": "staticwebassets/vendor/animsition/css/animsition.css"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/vendor/animsition/css/animsition.min.css",
+      "PackagePath": "staticwebassets/vendor/animsition/css/animsition.min.css"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/vendor/animsition/js/animsition.js",
+      "PackagePath": "staticwebassets/vendor/animsition/js/animsition.js"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/vendor/animsition/js/animsition.min.js",
+      "PackagePath": "staticwebassets/vendor/animsition/js/animsition.min.js"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/vendor/bootstrap/css/bootstrap-grid.css",
+      "PackagePath": "staticwebassets/vendor/bootstrap/css/bootstrap-grid.css"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/vendor/bootstrap/css/bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets/vendor/bootstrap/css/bootstrap-grid.css.map"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/vendor/bootstrap/css/bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets/vendor/bootstrap/css/bootstrap-grid.min.css"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/vendor/bootstrap/css/bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets/vendor/bootstrap/css/bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/vendor/bootstrap/css/bootstrap-reboot.css",
+      "PackagePath": "staticwebassets/vendor/bootstrap/css/bootstrap-reboot.css"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/vendor/bootstrap/css/bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets/vendor/bootstrap/css/bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/vendor/bootstrap/css/bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets/vendor/bootstrap/css/bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/vendor/bootstrap/css/bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets/vendor/bootstrap/css/bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/vendor/bootstrap/css/bootstrap.css",
+      "PackagePath": "staticwebassets/vendor/bootstrap/css/bootstrap.css"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/vendor/bootstrap/css/bootstrap.css.map",
+      "PackagePath": "staticwebassets/vendor/bootstrap/css/bootstrap.css.map"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/vendor/bootstrap/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/vendor/bootstrap/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/vendor/bootstrap/css/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/vendor/bootstrap/css/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/vendor/bootstrap/js/bootstrap.js",
+      "PackagePath": "staticwebassets/vendor/bootstrap/js/bootstrap.js"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/vendor/bootstrap/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/vendor/bootstrap/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/vendor/bootstrap/js/popper.js",
+      "PackagePath": "staticwebassets/vendor/bootstrap/js/popper.js"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/vendor/bootstrap/js/popper.min.js",
+      "PackagePath": "staticwebassets/vendor/bootstrap/js/popper.min.js"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/vendor/bootstrap/js/tooltip.js",
+      "PackagePath": "staticwebassets/vendor/bootstrap/js/tooltip.js"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/vendor/countdowntime/countdowntime.js",
+      "PackagePath": "staticwebassets/vendor/countdowntime/countdowntime.js"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/vendor/css-hamburgers/hamburgers.css",
+      "PackagePath": "staticwebassets/vendor/css-hamburgers/hamburgers.css"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/vendor/css-hamburgers/hamburgers.min.css",
+      "PackagePath": "staticwebassets/vendor/css-hamburgers/hamburgers.min.css"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/vendor/daterangepicker/daterangepicker.css",
+      "PackagePath": "staticwebassets/vendor/daterangepicker/daterangepicker.css"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/vendor/daterangepicker/daterangepicker.js",
+      "PackagePath": "staticwebassets/vendor/daterangepicker/daterangepicker.js"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/vendor/daterangepicker/moment.js",
+      "PackagePath": "staticwebassets/vendor/daterangepicker/moment.js"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/vendor/daterangepicker/moment.min.js",
+      "PackagePath": "staticwebassets/vendor/daterangepicker/moment.min.js"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/vendor/jquery/jquery-3.2.1.min.js",
+      "PackagePath": "staticwebassets/vendor/jquery/jquery-3.2.1.min.js"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/vendor/perfect-scrollbar/perfect-scrollbar.css",
+      "PackagePath": "staticwebassets/vendor/perfect-scrollbar/perfect-scrollbar.css"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/vendor/perfect-scrollbar/perfect-scrollbar.min.js",
+      "PackagePath": "staticwebassets/vendor/perfect-scrollbar/perfect-scrollbar.min.js"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/vendor/select2/select2.css",
+      "PackagePath": "staticwebassets/vendor/select2/select2.css"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/vendor/select2/select2.js",
+      "PackagePath": "staticwebassets/vendor/select2/select2.js"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/vendor/select2/select2.min.css",
+      "PackagePath": "staticwebassets/vendor/select2/select2.min.css"
+    },
+    {
+      "Id": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/vendor/select2/select2.min.js",
+      "PackagePath": "staticwebassets/vendor/select2/select2.min.js"
     },
     {
       "Id": "obj/Debug/net8.0/staticwebassets/msbuild.Company.Web.Microsoft.AspNetCore.StaticWebAssets.props",

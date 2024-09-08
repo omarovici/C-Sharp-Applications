@@ -26,4 +26,8 @@
       <Folder Include="wwwroot\Files\Images\" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Content Include="wwwroot\images\.DS_Store" />
+    </ItemGroup>
+
 </Project>
