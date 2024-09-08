@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "pCFePXd8qKkkLVoK0WqJ6Hp+FifUKHEuqg4sXv+K420=",
+  "Hash": "GJWX5cSNrREo1SvxfuJrPtacJjLARVsiTdpfkEgfRCo=",
   "Source": "Company.Web",
   "BasePath": "_content/Company.Web",
   "Mode": "Default",
@@ -1383,6 +1383,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/images/icons/favicon.ico"
+    },
+    {
+      "Identity": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/images/pawel-czerwinski-yn97LNy0bao-unsplash.jpg",
+      "SourceId": "Company.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/",
+      "BasePath": "_content/Company.Web",
+      "RelativePath": "images/pawel-czerwinski-yn97LNy0bao-unsplash.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/pawel-czerwinski-yn97LNy0bao-unsplash.jpg"
     },
     {
       "Identity": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/wwwroot/js/main.js",
