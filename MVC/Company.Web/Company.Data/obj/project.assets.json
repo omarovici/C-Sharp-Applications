@@ -4073,11 +4073,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Data/Company.Data.csproj",
+      "projectUniqueName": "/Users/macbook/Documents/Company.Web/Company.Data/Company.Data.csproj",
       "projectName": "Company.Data",
-      "projectPath": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Data/Company.Data.csproj",
+      "projectPath": "/Users/macbook/Documents/Company.Web/Company.Data/Company.Data.csproj",
       "packagesPath": "/Users/macbook/.nuget/packages/",
-      "outputPath": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Data/obj/",
+      "outputPath": "/Users/macbook/Documents/Company.Web/Company.Data/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/macbook/.nuget/NuGet/NuGet.Config"

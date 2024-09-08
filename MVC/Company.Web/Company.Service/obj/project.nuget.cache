@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rExNfErEvV1XpqE/2T5REPXz8O55umAAnx0qoYjQU/fytY5GXtusilJJNN3i7Z9DLMYZc/gXicqlzpIFWsNidw==",
+  "dgSpecHash": "/fyqxhpjA9IgSQeTs95r62TTL+fbBmcQWZNs6BOD6lfLrPnybYNVTCjVgA4C2lxgy8srEG+Sde3pXBgz+L9Yjw==",
   "success": true,
-  "projectFilePath": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Service/Company.Service.csproj",
+  "projectFilePath": "/Users/macbook/Documents/Company.Web/Company.Service/Company.Service.csproj",
   "expectedPackageFiles": [
     "/Users/macbook/.nuget/packages/automapper/13.0.1/automapper.13.0.1.nupkg.sha512",
     "/Users/macbook/.nuget/packages/azure.core/1.35.0/azure.core.1.35.0.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SNo8bE2/r1OP/2HPSGTFhxXeAdY6cznX5SfCypbnBX47vocnuNVFqpIJ0vPPinEDIl90xbTYB1yixLylMrGfmw==",
+  "dgSpecHash": "1bfPa+Z7Dh0lrklX5MeL/mrnbUbJjo9zDYNPCO3/gvL8tZ+jbNh3En/JhdM9R2q9Sip+ihQuVjKQpfXPuwovNQ==",
   "success": true,
-  "projectFilePath": "/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Repository/Company.Repository.csproj",
+  "projectFilePath": "/Users/macbook/Documents/Company.Web/Company.Repository/Company.Repository.csproj",
   "expectedPackageFiles": [
     "/Users/macbook/.nuget/packages/azure.core/1.35.0/azure.core.1.35.0.nupkg.sha512",
     "/Users/macbook/.nuget/packages/azure.identity/1.10.3/azure.identity.1.10.3.nupkg.sha512",
