@@ -40,8 +40,21 @@ public class Program
             config.User.RequireUniqueEmail = true;
             config.Lockout.AllowedForNewUsers = true;
             config.Lockout.MaxFailedAccessAttempts = 3;
-            config.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(60);
+            config.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromHours(1);
         }).AddEntityFrameworkStores<CompanyDbContext>().AddDefaultTokenProviders();
+
+        builder.Services.ConfigureApplicationCookie(options =>
+        {
+            options.Cookie.HttpOnly = true;
+            options.ExpireTimeSpan = TimeSpan.FromMinutes(60);
+            options.SlidingExpiration = true;
+            options.LoginPath = "/Account/Login";
+            options.LogoutPath = "/Account/Logout";
+            options.AccessDeniedPath = "/Account/AccessDenied";
+            options.Cookie.Name = "Omar Cookies";
+            options.Cookie.SecurePolicy = CookieSecurePolicy.Always;
+            options.Cookie.SameSite = SameSiteMode.Strict;
+        });
         
         var app = builder.Build();
 
@@ -59,6 +72,7 @@ public class Program
         app.UseRouting();
 
         app.UseAuthorization();
+        app.UseAuthentication();
 
         app.MapControllerRoute(
             name: "default",
