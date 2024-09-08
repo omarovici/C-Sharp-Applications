@@ -17,71 +17,71 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Company.Web
 build_property.RootNamespace = Company.Web
-build_property.ProjectDir = /Users/macbook/Documents/Company.Web/Company.Web/
+build_property.ProjectDir = /Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/macbook/Documents/Company.Web/Company.Web
+build_property.MSBuildProjectDirectory = /Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/macbook/Documents/Company.Web/Company.Web/Views/Department/Create.cshtml]
+[/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/Views/Department/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGVwYXJ0bWVudC9DcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/macbook/Documents/Company.Web/Company.Web/Views/Department/Details.cshtml]
+[/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/Views/Department/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGVwYXJ0bWVudC9EZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/macbook/Documents/Company.Web/Company.Web/Views/Department/Index.cshtml]
+[/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/Views/Department/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGVwYXJ0bWVudC9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/macbook/Documents/Company.Web/Company.Web/Views/Department/Update.cshtml]
+[/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/Views/Department/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGVwYXJ0bWVudC9VcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/macbook/Documents/Company.Web/Company.Web/Views/Employee/Create.cshtml]
+[/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/Views/Employee/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRW1wbG95ZWUvQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/macbook/Documents/Company.Web/Company.Web/Views/Employee/Index.cshtml]
+[/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/Views/Employee/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRW1wbG95ZWUvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/macbook/Documents/Company.Web/Company.Web/Views/Home/Index.cshtml]
+[/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/macbook/Documents/Company.Web/Company.Web/Views/Home/NotFoundPage.cshtml]
+[/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/Views/Home/NotFoundPage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Ob3RGb3VuZFBhZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/macbook/Documents/Company.Web/Company.Web/Views/Home/Privacy.cshtml]
+[/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/macbook/Documents/Company.Web/Company.Web/Views/Shared/Error.cshtml]
+[/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/macbook/Documents/Company.Web/Company.Web/Views/Shared/_ActionButtonsPartialView.cshtml]
+[/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/Views/Shared/_ActionButtonsPartialView.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19BY3Rpb25CdXR0b25zUGFydGlhbFZpZXcuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/macbook/Documents/Company.Web/Company.Web/Views/Shared/_ValidationScriptsPartial.cshtml]
+[/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/macbook/Documents/Company.Web/Company.Web/Views/_ViewImports.cshtml]
+[/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/macbook/Documents/Company.Web/Company.Web/Views/_ViewStart.cshtml]
+[/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/macbook/Documents/Company.Web/Company.Web/Views/Shared/_Layout.cshtml]
+[/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-6vgzggjdkb

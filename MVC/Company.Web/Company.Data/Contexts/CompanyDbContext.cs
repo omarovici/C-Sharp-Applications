@@ -1,19 +1,13 @@
 using System.Reflection;
 using Data.Models.Entities;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace Data.Models.Contexts;
 
-public class CompanyDbContext : DbContext
-{
-    public CompanyDbContext(DbContextOptions<CompanyDbContext> options) : base(options)
-    {
-    }
-
-    // protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-    // {
-    //     optionsBuilder.UseSqlServer("Server=localhost,1433;Database=ITI;User Id=SA;Password=MyStrongPass123;TrustServerCertificate=True;");
-    // }
+public class CompanyDbContext : IdentityDbContext<ApplicationUser>
+{ 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
