@@ -41,7 +41,7 @@ public class Program
             config.Lockout.AllowedForNewUsers = true;
             config.Lockout.MaxFailedAccessAttempts = 3;
             config.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(60);
-        }).AddEntityFrameworkStores<CompanyDbContext>();
+        }).AddEntityFrameworkStores<CompanyDbContext>().AddDefaultTokenProviders();
         
         var app = builder.Build();
 
