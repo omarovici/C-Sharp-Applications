@@ -7,7 +7,11 @@ using Microsoft.EntityFrameworkCore;
 namespace Data.Models.Contexts;
 
 public class CompanyDbContext : IdentityDbContext<ApplicationUser>
-{ 
+{
+    public CompanyDbContext(DbContextOptions<CompanyDbContext> options) : base(options)
+    {
+    }
+    
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());

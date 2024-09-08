@@ -4,6 +4,8 @@ using Company.Service.Interfaces;
 using Company.Service.Interfaces.Services;
 using Company.Service.Mapping;
 using Data.Models.Contexts;
+using Data.Models.Entities;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 namespace Company.Web;
@@ -27,6 +29,19 @@ public class Program
         builder.Services.AddScoped<IEmployeeService, EmployeeService>();
         builder.Services.AddAutoMapper(x => x.AddProfile<EmployeeProfile>());
         builder.Services.AddAutoMapper(x => x.AddProfile<DepartmentProfile>());
+        
+        builder.Services.AddIdentity<ApplicationUser, IdentityRole>(config =>
+        {
+            config.Password.RequiredUniqueChars = 2;
+            config.Password.RequireDigit = true;
+            config.Password.RequireLowercase = true;
+            config.Password.RequireUppercase = true;
+            config.Password.RequireNonAlphanumeric = true;
+            config.User.RequireUniqueEmail = true;
+            config.Lockout.AllowedForNewUsers = true;
+            config.Lockout.MaxFailedAccessAttempts = 3;
+            config.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(60);
+        });
         
         var app = builder.Build();
 
