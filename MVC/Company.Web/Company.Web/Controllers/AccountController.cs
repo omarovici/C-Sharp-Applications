@@ -8,10 +8,15 @@ namespace Company.Web.Controllers
     public class AccountController : Controller
     {
         private readonly UserManager<ApplicationUser> _userManager;
-        public AccountController(UserManager<ApplicationUser> userManager)
+        private readonly SignInManager<ApplicationUser> _signInManager;
+        public AccountController(UserManager<ApplicationUser> userManager, SignInManager<ApplicationUser> signInManager)
         {
             _userManager = userManager;
+            _signInManager = signInManager;
         }
+
+        #region SignUp
+
         public IActionResult SignUp()
         {
             return View();
@@ -39,5 +44,38 @@ namespace Company.Web.Controllers
             }
             return View(input);
         }
+
+        #endregion
+
+        #region Login
+
+        public IActionResult Login()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Login(LoginViewModel input)
+        {
+            if (ModelState.IsValid)
+            {
+                var user = await _userManager.FindByEmailAsync(input.Email);
+                if (user is not null)
+                {
+                    if (await _userManager.CheckPasswordAsync(user, input.Password))
+                    {
+                        var result = await _signInManager.PasswordSignInAsync(user, input.Password, input.RememberMe, true);
+                        if (result.Succeeded)
+                            return RedirectToAction("Index", "Home");
+                    }
+                }
+                
+                ModelState.AddModelError("", "Invalid Email or Password");
+                return View(input);
+            }
+            return View(input);
+        }
+
+        #endregion
     }
 }

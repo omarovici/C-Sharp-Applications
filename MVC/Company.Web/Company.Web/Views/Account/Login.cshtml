@@ -1,0 +1,55 @@
+@model Company.Web.Models.LoginViewModel
+@{
+    ViewData["Title"] = "Login";
+    Layout = "~/Views/Shared/_AuthLayout.cshtml";
+}
+
+<form class="login100-form validate-form" asp-action="Login" method="post">
+    <span class="login100-form-logo">
+        <i class="zmdi zmdi-landscape animated jackInTheBox"></i>
+    </span>
+    <span class="login100-form-title p-b-34 p-t-27">
+        Login
+    </span>
+
+    <div asp-validation-summary="All" class="text-danger"></div>
+
+    <div class="wrap-input100 validate-input" data-validate="Enter email">
+        <input class="input100 animated fadeInUp" type="email" asp-for="Email" placeholder="Email">
+        <span asp-validation-for="Email" class="text-danger"></span>
+        <span class="focus-input100" data-placeholder="&#xf207;"></span>
+    </div>
+
+    <div class="wrap-input100 validate-input" data-validate="Enter password">
+        <input class="input100 animated fadeInUp" type="password" asp-for="Password" placeholder="Password">
+        <span asp-validation-for="Password" class="text-danger"></span>
+        <span class="focus-input100" data-placeholder="&#xf191;"></span>
+    </div>
+
+    <div class="contact100-form-checkbox">
+        <input class="input-checkbox100 animated flipInX" id="ckb1" type="checkbox" asp-for="RememberMe">
+        <label class="label-checkbox100" for="ckb1">
+            Remember Me
+        </label>
+        <span asp-validation-for="RememberMe" class="text-danger"></span>
+    </div>
+
+    <div class="container-login100-form-btn">
+        <button class="login100-form-btn animated pulse" onclick="$(this).addClass('animated pulse'); setTimeout(function(){$('.login100-form-btn').removeClass('animated pulse');}, 1000)">
+            Login
+        </button>
+    </div>
+
+    <div class="text-center p-t-20">
+        <a class="txt1 animated fadeIn" style="cursor: pointer; transition: all 0.5s;" href="@Url.Action("ForgotPassword", "Account")" onmouseover="$(this).css('color', '#1B058A');" onmouseout="$(this).css('color', '#FFFFFF');">
+            Forgot Password?
+        </a>
+    </div>
+
+    <div class="text-center p-t-20">
+        <span class="animated fadeIn">Don't have an account?</span>
+        <a class="txt1 animated fadeIn" style="cursor: pointer; transition: all 0.5s;" href="@Url.Action("SignUp", "Account")" onmouseover="$(this).css('color', '#1B058A');" onmouseout="$(this).css('color', '#FFFFFF');">
+            Sign Up
+        </a>
+    </div>
+</form>
