@@ -6,45 +6,47 @@
 
 <form class="login100-form validate-form" asp-action="SignIn" method="post">
     <span class="login100-form-logo">
-        <i class="zmdi zmdi-landscape"></i>
+        <i class="zmdi zmdi-landscape animated jackInTheBox"></i>
     </span>
 
     <span class="login100-form-title p-b-34 p-t-27">
         Sign Up
     </span>
 
+    <div asp-validation-summary="All" class="text-danger"></div>
+
     <div class="wrap-input100 validate-input" data-validate="Enter first name">
-        <input class="input100" type="text" asp-for="FirstName" placeholder="First Name">
+        <input class="input100 animated fadeInUp" type="text" asp-for="FirstName" placeholder="First Name">
         <span asp-validation-for="FirstName" class="text-danger"></span>
         <span class="focus-input100" data-placeholder="&#xf207;"></span>
     </div>
 
     <div class="wrap-input100 validate-input" data-validate="Enter last name">
-        <input class="input100" type="text" asp-for="LastName" placeholder="Last Name">
+        <input class="input100 animated fadeInUp" type="text" asp-for="LastName" placeholder="Last Name">
         <span asp-validation-for="LastName" class="text-danger"></span>
         <span class="focus-input100" data-placeholder="&#xf207;"></span>
     </div>
 
     <div class="wrap-input100 validate-input" data-validate="Enter email">
-        <input class="input100" type="email" asp-for="Email" placeholder="Email">
+        <input class="input100 animated fadeInUp" type="email" asp-for="Email" placeholder="Email">
         <span asp-validation-for="Email" class="text-danger"></span>
         <span class="focus-input100" data-placeholder="&#xf207;"></span>
     </div>
 
     <div class="wrap-input100 validate-input" data-validate="Enter password">
-        <input class="input100" type="password" asp-for="Password" placeholder="Password">
+        <input class="input100 animated fadeInUp" type="password" asp-for="Password" placeholder="Password">
         <span asp-validation-for="Password" class="text-danger"></span>
         <span class="focus-input100" data-placeholder="&#xf191;"></span>
     </div>
 
     <div class="wrap-input100 validate-input" data-validate="Confirm password">
-        <input class="input100" type="password" asp-for="ConfirmPassword" placeholder="Confirm Password">
+        <input class="input100 animated fadeInUp" type="password" asp-for="ConfirmPassword" placeholder="Confirm Password">
         <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
         <span class="focus-input100" data-placeholder="&#xf191;"></span>
     </div>
 
     <div class="contact100-form-checkbox">
-        <input class="input-checkbox100" id="ckb1" type="checkbox" asp-for="IsAgree">
+        <input class="input-checkbox100 animated flipInX" id="ckb1" type="checkbox" asp-for="IsAgree">
         <label class="label-checkbox100" for="ckb1">
             I agree to the Terms and Conditions
         </label>
@@ -52,14 +54,14 @@
     </div>
 
     <div class="container-login100-form-btn">
-        <button class="login100-form-btn">
+        <button class="login100-form-btn animated pulse" onclick="$(this).addClass('animated pulse'); setTimeout(function(){$('.login100-form-btn').removeClass('animated pulse');}, 1000)">
             Sign Up
         </button>
     </div>
 
-    <div class="text-center p-t-90">
-        <span>Already have an account?</span>
-        <a class="txt1" href="@Url.Action("Login", "Account")">
+    <div class="text-center p-t-20">
+        <span class="animated fadeIn">Already have an account?</span>
+        <a class="txt1 animated fadeIn" style="cursor: pointer; transition: all 0.5s;" href="@Url.Action("Login", "Account")" onmouseover="$(this).css('color', '#1B058A');" onmouseout="$(this).css('color', '#FFFFFF');">
             Login
         </a>
     </div>
