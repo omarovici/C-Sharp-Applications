@@ -1,33 +1,68 @@
-@model SignUpViewModel
+@model Company.Web.Models.SignUpViewModel
 @{
     ViewData["Title"] = "Sign Up";
     Layout = "~/Views/Shared/_AuthLayout.cshtml";
 }
+
 <h1>Sign Up</h1>
-<form asp-action="SignUp" method="post">
-    <div asp-validation-summary="All"></div>
-    <input type="text" asp-for="FirstName" placeholder="FirstName" class="form-control">
-    <span asp-validation-for="FirstName"></span>
-    <br />
-    <input type="text" asp-for="LastName" placeholder="LastName" class="form-control">
-    <span asp-validation-for="LastName"></span>
-    <br />
-    <input type="text" asp-for="Email" placeholder="Email" class="form-control">
-    <span asp-validation-for="Email"></span>
-    <br />
-    <input type="password" asp-for="Password" placeholder="Password" class="form-control">
-    <span asp-validation-for="Password"></span>
-    <br />
-    <input type="password" asp-for="ConfirmPassword" placeholder="ConfirmPassword" class="form-control">
-    <span asp-validation-for="ConfirmPassword"></span>
-    <br /><br />
-    <div class="wthree-text">
-        <label class="anim">
-            <input type="checkbox" required>
-            <span>I Agree To The Terms & Conditions</span>
-        </label>
-        <div class="clear"></div>
+
+<form class="login100-form validate-form" asp-action="SignIn" method="post">
+    <span class="login100-form-logo">
+        <i class="zmdi zmdi-landscape"></i>
+    </span>
+
+    <span class="login100-form-title p-b-34 p-t-27">
+        Sign Up
+    </span>
+
+    <div class="wrap-input100 validate-input" data-validate="Enter first name">
+        <input class="input100" type="text" asp-for="FirstName" placeholder="First Name">
+        <span asp-validation-for="FirstName" class="text-danger"></span>
+        <span class="focus-input100" data-placeholder="&#xf207;"></span>
     </div>
-    <input type="submit" value="SignUp" class="btn btn-primary">
+
+    <div class="wrap-input100 validate-input" data-validate="Enter last name">
+        <input class="input100" type="text" asp-for="LastName" placeholder="Last Name">
+        <span asp-validation-for="LastName" class="text-danger"></span>
+        <span class="focus-input100" data-placeholder="&#xf207;"></span>
+    </div>
+
+    <div class="wrap-input100 validate-input" data-validate="Enter email">
+        <input class="input100" type="email" asp-for="Email" placeholder="Email">
+        <span asp-validation-for="Email" class="text-danger"></span>
+        <span class="focus-input100" data-placeholder="&#xf207;"></span>
+    </div>
+
+    <div class="wrap-input100 validate-input" data-validate="Enter password">
+        <input class="input100" type="password" asp-for="Password" placeholder="Password">
+        <span asp-validation-for="Password" class="text-danger"></span>
+        <span class="focus-input100" data-placeholder="&#xf191;"></span>
+    </div>
+
+    <div class="wrap-input100 validate-input" data-validate="Confirm password">
+        <input class="input100" type="password" asp-for="ConfirmPassword" placeholder="Confirm Password">
+        <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+        <span class="focus-input100" data-placeholder="&#xf191;"></span>
+    </div>
+
+    <div class="contact100-form-checkbox">
+        <input class="input-checkbox100" id="ckb1" type="checkbox" asp-for="IsAgree">
+        <label class="label-checkbox100" for="ckb1">
+            I agree to the Terms and Conditions
+        </label>
+        <span asp-validation-for="IsAgree" class="text-danger"></span>
+    </div>
+
+    <div class="container-login100-form-btn">
+        <button class="login100-form-btn">
+            Sign Up
+        </button>
+    </div>
+
+    <div class="text-center p-t-90">
+        <span>Already have an account?</span>
+        <a class="txt1" href="@Url.Action("Login", "Account")">
+            Login
+        </a>
+    </div>
 </form>
-<p class="text-white">Do you have an Account? <a asp-action="Login"> Login Now!</a></p>

@@ -17,6 +17,7 @@ namespace Company.Web.Controllers
             return View();
         }
 
+        [HttpPost]
         public async Task<IActionResult> SignIn(SignUpViewModel input)
         {
             if (ModelState.IsValid)
