@@ -102,6 +102,18 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/Views/User/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/Views/User/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/Views/User/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9VcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/macbook/Documents/C-Sharp-Applications/MVC/Company.Web/Company.Web/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

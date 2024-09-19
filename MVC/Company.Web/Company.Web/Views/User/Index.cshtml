@@ -1,0 +1,51 @@
+@model IEnumerable<Data.Models.Entities.ApplicationUser>
+@{
+    ViewBag.Title = "Index";
+    Layout = "_Layout";
+}
+
+<h1>All Users</h1>
+<br />
+<br />
+<form class="my-3" asp-action="Index" asp-controller="User">
+    <div class="row">
+        <div class="col-sm-8">
+            <input placeholder="Search By Email" name="SearchValue" class="form-control" />
+        </div>
+        <div class="col-sm-4">
+            <input type="submit" value="Search" class="btn btn-success btn-block" />
+        </div>
+    </div>
+</form>
+@if (Model?.Any() == true)
+{
+    <table class="table table-stripped table-hover">
+        <thead>
+            <tr>
+                <th>@Html.DisplayNameFor(m => m.Id)</th>
+                <th>@Html.DisplayNameFor(m => m.UserName)</th>
+                <th>@Html.DisplayNameFor(m => m.Email)</th>
+                <th>Details</th>
+                <th>Update</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@Html.DisplayFor(m => item.Id)</td>
+                    <td>@Html.DisplayFor(m => item.UserName)</td>
+                    <td>@Html.DisplayFor(m => item.Email)</td>
+                    <partial name="_ActionButtonsPartialView" model="@item.Id.ToString()" />
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <div class="alert alert-warning">
+        <h4>No Users Found!!</h4>
+    </div>
+}
