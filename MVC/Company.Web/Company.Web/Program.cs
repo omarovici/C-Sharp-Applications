@@ -79,7 +79,7 @@ public class Program
 
         app.MapControllerRoute(
             name: "default",
-            pattern: "{controller=Account}/{action=SignUp}");
+            pattern: "{controller=Home}/{action=Index}");
 
         app.Run();
     }

@@ -30,4 +30,8 @@
       <Content Include="wwwroot\images\.DS_Store" />
     </ItemGroup>
 
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="Views\Account\Role\Index.cshtml" />
+    </ItemGroup>
+
 </Project>
