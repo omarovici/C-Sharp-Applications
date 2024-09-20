@@ -1,10 +1,13 @@
 using Company.Web.Models;
 using Data.Models.Entities;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace Company.Web.Controllers;
+
+[Authorize (Roles = "Admin")]
 
 public class UserController : Controller
 {

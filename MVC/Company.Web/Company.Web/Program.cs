@@ -76,10 +76,9 @@ public class Program
         
         app.UseAuthorization();
         
-
         app.MapControllerRoute(
             name: "default",
-            pattern: "{controller=Home}/{action=Index}");
+            pattern: "{controller=Account}/{action=SignUp}");
 
         app.Run();
     }
